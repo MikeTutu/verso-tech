@@ -1,5 +1,5 @@
 .dark-bg{
-    background-image:  url('/assets/wall1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0, .9)), url('wall1.jpg');
     background-size: cover;
     
 }
@@ -12,8 +12,8 @@
     font-size: 80px;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 576px) {
     #hero-text {
-      font-size: 2rem;
+      font-size: 70px;
     }
   }
