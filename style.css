@@ -1,0 +1,14 @@
+.dark-bg{
+    background-image: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .9)), url('/assets/wall1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#hero .container{
+    height: 90vh;
+}
+
+#hero-text{
+    font-size: 95px;
+}
