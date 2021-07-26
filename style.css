@@ -1,8 +1,7 @@
 .dark-bg{
-    background-image: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .9)), url('/assets/wall1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0, .9)), url('/assets/wall1.jpg');
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    
 }
 
 #hero .container{
@@ -14,7 +13,7 @@
 }
 
 @media (min-width: 1200px) {
-    .title {
+    #hero-text {
       font-size: 2rem;
     }
   }
