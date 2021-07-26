@@ -1,5 +1,5 @@
 .dark-bg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0, .9)), url('/assets/wall1.jpg');
+    background-image:  url('/assets/wall1.jpg');
     background-size: cover;
     
 }
