@@ -1,3 +1,11 @@
+body{
+    background-color: #F8F9FA;
+}
+
+section{
+    padding:60px 0;
+}
+
 .dark-bg{
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0, .9)), url('wall1.jpg');
     background-size: cover;
@@ -33,7 +41,17 @@ box-shadow:  20px -20px 60px #bebebe,
 }
 
 .read-more{
-    color: #FE3C02;
+    color: #E72973;
+}
+
+#list-item{
+    font-size: large;
+    color: black;
+}
+
+li{
+    list-style: square;
+    color: #E72973;
 }
 
 @media (max-width: 576px) {
