@@ -1,5 +1,5 @@
 .dark-bg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0, .9)), url('wall1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0, .9)), url('/assets/wall1.jpg');
     background-size: cover;
     
 }
@@ -12,8 +12,47 @@
     font-size: 80px;
 }
 
+#about-us{
+    padding-top: 50px;
+}
+
+
+.about-image{
+    width: 450px;
+    height: 400px;
+
+    border-radius: 2px;
+background: #e0e0e0;
+box-shadow:  20px -20px 60px #bebebe,
+             -20px 20px 60px #ffffff;
+}
+
+#card-root{
+    display: grid;
+    place-items: center;
+}
+
+.read-more{
+    color: #FE3C02;
+}
+
 @media (max-width: 576px) {
     #hero-text {
       font-size: 70px;
+    }
+    .about-image{
+        width: 350px;
+        height: 300px;
+    
+        border-radius: 2px;
+    background: #e0e0e0;
+    box-shadow:  20px -20px 60px #bebebe,
+                 -20px 20px 60px #ffffff;
+    }
+    #card-root{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
   }

@@ -12,26 +12,27 @@
 <title>Verso-Tech</title>
 </head>
 <body>
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <a href="http://" class="text-decoration-none text-white"><h5 class="fs-5 fst-normal">About Us</h5></a>
+      <a href="http://" class="text-decoration-none text-white"><h5 class="fs-5 fst-normal">Services</h5></a>
+      <a href="http://" class="text-decoration-none text-white"><h5 class="fs-5 fst-normal">Products</h5></a>
+      <a href="http://" class="text-decoration-none text-white"><h5 class="fs-5 fst-normal">Contact Us</h5></a>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid justify-content-end">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+       data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav> 
+  <!-- header           -->
+  
     <div class="root">
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark p-4">
-              <a href="http://" class="text-decoration-none text-white"><h5 class="fs-5 fst-normal">About Us</h5></a>
-              <a href="http://" class="text-decoration-none text-white"><h5 class="fs-5 fst-normal">Services</h5></a>
-              <a href="http://" class="text-decoration-none text-white"><h5 class="fs-5 fst-normal">Contact</h5></a>
-            </div>
-          </div>
-          <nav class="navbar navbar-dark bg-dark">
-            <div class="container-fluid justify-content-end">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-               data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                aria-expanded="false" 
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-          </nav> 
-          <!-- header           -->
-
           <div class="dark-bg img-fluid" id="hero">
             <div class="container">
                 <div class="d-flex h-100 flex-column text-light justify-content-center">
@@ -40,8 +41,54 @@
                         class="text-danger">and</span> enthusiast</p>
                   </div>
             </div>
-          </div>title
+          </div>
           <!-- hero-section -->
+
+          <div class="container mt-5 text-center">
+            <h1 class="display-5">Services</h1>
+          </div>
+
+
+          <div class="container text-center mt-1 m-5 p-5" id="card-root">
+            <div class="row">
+              <div class="col">
+                <div class="card mb-5" style="width: 18rem;">
+                  <img src="/assets/wall2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-text">Our web development compass websites to web applications.</p>
+                      <div class="text-end">
+                    <a href="#" class="text-decoration-none"><span class="read-more">Read More</span></a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-5" style="width: 18rem;">
+                  <img src="/assets/wall2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">UI/UX Design</h5>
+                    <p class="card-text">A modern, interactive design to help your product succeed. We help you maximise usability
+                      and user experience with our glamorous interface designs.</p>
+                      <div class="text-end">
+                    <a href="#" class="text-decoration-none"><span class="read-more">Read More</span></a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="/assets/wall2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Software Consulting</h5>
+                    <p class="card-text">We are happy to provide our expert knowledge to maximise your output.</p>
+                      <div class="text-end">
+                    <a href="#" class="text-decoration-none"><span class="read-more">Read More</span></a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
     </div>
     <footer>
         footer section
